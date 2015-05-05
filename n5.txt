@@ -9,13 +9,13 @@
     <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
     <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
     <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
-<style>
+ <style>
   .rChart {
     display: block;
     margin-left: auto; 
     margin-right: auto;
-    width: 750px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
   }  
   </style>
 <div id = 'chart4' class = 'rChart nvd3'></div>
@@ -26,8 +26,8 @@
     function drawchart4(){  
       var opts = {
  "dom": "chart4",
-"width":    750,
-"height":    500,
+"width":    600,
+"height":    400,
 "x": "geschlecht",
 "y": "value",
 "group": "group",
@@ -120,6 +120,3 @@
       });
     };
 </script>
-<script></script>    
-  </body>
-</html>
